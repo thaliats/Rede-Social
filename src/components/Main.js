@@ -29,7 +29,6 @@ function App() {
                     </div>
                     <div className="textonome">
                         <h1>Carol Santana</h1>
-                        <p>Imagine um mundo sem vio..</p>
                     </div>
                 </div>
                 <div className="postConteiner">
