@@ -21,7 +21,7 @@
   }
 
 .tudo{
-    flex: 2;
+    flex: 2.5;
     cursor: pointer;
     display: flex;
   }
@@ -42,7 +42,7 @@
   }
 .bot{
     text-decoration: none;
-    background-color: rgb(28, 28, 31);
+    background-color: rgb(42, 42, 48);
     width: 200px;
     height: 60px;
     font-size: 20px;
@@ -55,6 +55,7 @@
 .bot:hover{
     background-color: rgb(71, 71, 71);
     color: rgb(0, 0, 0);
+    
   }
 h1{
     padding-top: 10px;
@@ -64,14 +65,13 @@ h1{
 p{
     color: white;
   }
-.galeria{     
+.fotofundo{     
     width: 100%;
     height: 100%;
-    background-image: url("../fotofundo.jpg");
-    background-repeat: repeat;
-    position: absolute;
-    filter: blur(10px);
-   
+    background-color: rgb(216, 216, 216);
+    top:0;
+    z-index: -1;
+    position: fixed;
     
   }
 .postConteiner{
@@ -100,9 +100,9 @@ p{
 
 }
 .post{
-    border-top: solid 5px rgb(62, 247, 231);
+    border-top: solid 5px rgb(43, 213, 255);
     width: 700px;
-    background-color: rgba(128, 128, 128, 0.877);
+    background-color: rgb(255, 255, 255);
     margin-top: 30px;
     border-radius: 5px;
     text-align: justify;
@@ -126,4 +126,7 @@ p{
     width: 20px;
     padding-top: 15px;
     padding-left: 20px;
+}
+.curtir:hover{
+  transform: scale(0.9);
 }
